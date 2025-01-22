@@ -16,6 +16,7 @@ function Contador() {
 
     <div>
       <h1>Contador:{contador}</h1>
+      <h2>hola</h2>
       <button onClick={() => setContador(contador + 1)}>Incrementar</button>
       <button onClick={() => setContador(contador - 1)}>Decrementar</button>
       <button onClick={() => setContador(0)}>Reset</button>
